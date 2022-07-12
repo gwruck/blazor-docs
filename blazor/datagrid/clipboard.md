@@ -211,3 +211,5 @@ You can copy the content of a cell or a group of cells by selecting the cells an
 ### Limitation of Paste Functionality
 
 Since the string values are not parsed to number and date type, when the copied string type cells are pasted to number type cells then it will display as **NaN**. For date type cells, when the copied string format cells are pasted to date type cells then it will display as an **empty cell**.
+
+Pasting data into the grid will not trigger any of the grid events.
